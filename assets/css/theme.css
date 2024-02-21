@@ -1,0 +1,35 @@
+:root {
+  --mjd-primary: #3882dd;
+  --mjd-primary-subtle: #3882ddc9;
+}
+
+nav {
+  /* background-color: #88adda; */
+  font-weight: 500;
+  /* color: #88adda; */
+}
+
+.navbar-brand {
+  color: var(--mjd-primary);
+}
+
+.navbar-brand:hover {
+  color: var(--mjd-primary);
+}
+
+.nav-link {
+  color: var(--mjd-primary-subtle);
+}
+
+.nav-link:hover {
+  color: var(--mjd-primary);
+}
+
+.badge {
+  background-color: var(--mjd-primary);
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,30 @@
+/* hr {
+  width: 82vw;
+  margin: 0 auto;
+} */
+
+/* .mjd-navbar-spacer {
+  margin-bottom: 1rem;
+} */
+
+p {
+  line-height: 1.7rem;
+}
+
+.bio-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.copy {
+  background-color: #8b73892c;
+  padding: 1rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.mjd-project:hover {
+  background-color: rgb(212, 212, 212);
+  cursor: pointer;
+}
