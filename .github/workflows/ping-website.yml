@@ -1,0 +1,11 @@
+name: ping-website
+on:
+  schedule:
+    - cron: "0 8 * * 1,4"
+jobs:
+  ping-url:
+    name: Ping url
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request
+        run: curl -o /dev/null -s https://nevematteo14.github.io/
